@@ -7,16 +7,16 @@ class HelloTest {
 
     @Test
     void defaultGreeting() {
-        assertEquals("Hello, World!", Hello.greet());
+        assertEquals("Hallo, Welt!", Hello.greet());
     }
 
     @Test
     void namedGreeting() {
-        assertEquals("Hello, Alice!", Hello.greet("Alice"));
+        assertEquals("Hallo, Alice!", Hello.greet("Alice"));
     }
 
     @Test
     void emptyString() {
-        assertEquals("Hello, !", Hello.greet(""));
+        assertEquals("Hallo, !", Hello.greet(""));
     }
 }
